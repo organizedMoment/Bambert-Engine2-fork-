@@ -55,7 +55,7 @@ class Main extends Sprite
 		{
 			addEventListener(Event.ADDED_TO_STAGE, init);
 		}
-	}
+	flixel.util.FlxAxes}
 
 	private function init(?E:Event):Void
 	{Int
