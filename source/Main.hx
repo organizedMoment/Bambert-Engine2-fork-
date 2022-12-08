@@ -58,7 +58,7 @@ class Main extends Sprite
 	}
 
 	private function init(?E:Event):Void
-	{
+	{Int
 		if (hasEventListener(Event.ADDED_TO_STAGE))
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
@@ -122,7 +122,7 @@ class Main extends Sprite
 		dateNow = dateNow.replace(" ", "_");
 		dateNow = dateNow.replace(":", "'");
 
-		path = SUtil.getPath() + "crash/" + "OSEngine_" + dateNow + ".txt";
+		path = SUtil.getPath() + "crash/" + "BAMBERTEngine_" + dateNow + ".txt";
 
 		for (stackItem in callStack)
 		{
